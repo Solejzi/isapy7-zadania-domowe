@@ -1,0 +1,11 @@
+szerokosc =int(input("szerokosc"))
+dlugosc =int(input("dlugosc"))
+wizual_boku = ("|"+ szerokosc * " " + "|\n")
+
+print("+", end="")
+print(szerokosc * "-", end="")
+print("+")
+print(dlugosc *  wizual_boku, end="")
+print("+", end="")
+print(szerokosc * "-", end="")
+print("+")
